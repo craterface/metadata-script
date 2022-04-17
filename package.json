@@ -1,0 +1,26 @@
+{
+  "name": "create-metadata-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craterface/create-metadata-script.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craterface/create-metadata-script/issues"
+  },
+  "homepage": "https://github.com/craterface/create-metadata-script#readme",
+  "dependencies": {
+    "ipfs": "^0.62.2",
+    "ipfs-core": "^0.14.2",
+    "ipfs-http-client": "^56.0.2",
+    "ipfs-utils": "^9.0.5"
+  }
+}
