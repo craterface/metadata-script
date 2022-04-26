@@ -27,7 +27,7 @@ const ATTRIBUTES = [
 async function createMetadata(fileName, NFT_NAME, NFT_DESCRIPTION) {
   const formatName = (name) => name.trim().replaceAll(" ", "_");
 
-  const fsReadImgData = fs.readFileSync("hk.jpeg");
+  const fsReadImgData = fs.readFileSync(fileName);
 
   const ipfs = create({
     host: "ipfs.infura.io",
